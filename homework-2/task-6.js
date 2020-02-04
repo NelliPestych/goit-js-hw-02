@@ -1,9 +1,10 @@
-"use strict";
+'use strict';
+
 let input;
 let total = 0;
 const numbers = [];
 do {
-  input = prompt("Введите число");
+  input = prompt('Введите число');
   if (input !== null) {
     numbers.push(input);
   }
